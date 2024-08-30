@@ -1,0 +1,25 @@
+.styleDetails{
+    position: relative;
+    right:-35px;
+    width:500px;
+    top:130px;
+    font-size:20px;
+    /*color:white;*/
+}
+
+.head{
+    display: flex;
+    /*background-color: green; Animated background*/
+    padding: 20px;
+}
+.Name{
+    margin-left:15px;
+    font-size:25px;
+    text-align: center;
+    padding-left: 480px;
+    padding-right: 150px;
+    font-size: 55px;
+    /*color:hsl(59, 100%, 50%);
+    border: none;
+    text-shadow: 6px 0px 2px hsl(0, 100%, 40%), 10px 0px 2px hsl(120, 100%, 20%);*/
+}

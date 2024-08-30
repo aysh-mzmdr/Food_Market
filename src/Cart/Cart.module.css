@@ -1,0 +1,33 @@
+.Cart{
+    margin-top:25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top:25px;
+    border: 3px solid ;
+    background-color: hsl(160, 100%, 90%);
+}
+
+.Item{
+    padding-left: 10px;
+    font-size: 21px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Pay{
+    font-size:25px;
+    background-color: hsl(240, 100%, 35%);
+    color: hsl(39, 77%, 93%);
+    align-content: right;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border:none;
+    border-radius: 25px;
+    position: relative;
+    top:30px;
+    left: 120px;
+    margin-bottom: 40px;
+    transition: 0.25s background-color;
+}
+.Pay:hover{
+    background-color: hsl(240, 100%, 45%);
+}

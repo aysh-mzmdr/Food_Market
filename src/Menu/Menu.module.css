@@ -1,0 +1,81 @@
+.button{
+    font-size:25px;
+    background-color: hsl(120, 100%, 35%);
+    color: hsl(39, 77%, 93%);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border:none;
+    border-radius: 25px;
+    transition: 0.25s color;
+    transition: 0.25s background-color;
+}
+.button:hover{
+    background-color: hsla(65, 100%, 47%, 0.664);
+    color:hsl(120, 100%, 25%);
+}
+
+.Removebutton{
+    font-size:25px;
+    background-color: hsl(39, 100%, 45%);
+    color: hsl(39, 77%, 93%);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border:none;
+    border-radius: 25px;
+    transition: 0.25s color;
+    transition: 0.25s background-color;
+}
+.Removebutton:hover{
+    background-color: hsla(65, 77%, 83%, 0.696);
+    color:hsl(0, 100%, 25%);
+}
+
+.RemoveAllbutton{
+    font-size:25px;
+    background-color: hsl(0, 100%, 35%);
+    color: hsl(39, 77%, 93%);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border:none;
+    border-radius: 25px;
+    transition: 0.25s background-color;
+}
+.RemoveAllbutton:hover{
+    background-color: hsl(0, 100%, 45%);
+}
+
+
+
+
+
+
+.card{
+    margin:10px;
+    margin-top: 20px;
+    border: solid 2px black;
+    box-shadow: 4px 4px 4px black , -4px 4px 4px black;
+    text-align: center;
+    width:480px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    display: inline-block;
+}
+.price{
+    font-weight: bold;
+    font-size: 25px;
+}
+.food{
+    font-size: 35px;
+}
+.descr{
+    padding: 5px;
+}
