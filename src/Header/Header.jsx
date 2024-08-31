@@ -1,7 +1,7 @@
 import logo from '../assets/logo.jpg'
 import styles from './Header.module.css'
 function Header(){
-
+    
     return(
         <div className={styles.head}>
             <img src={logo} alt='Logo'></img>
