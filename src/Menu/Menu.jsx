@@ -30,6 +30,9 @@ function Menu(props){
         RemoveAllButtons:<button className={styles.RemoveAllbutton} onClick={() => setCount1(0)}><b>Remove these Burgers from cart</b></button>,
         cartted:count1,
        };
+
+    if(count1<0)
+        setCount1(0);
     
     const croissant={
         image:Croissant,
@@ -42,6 +45,9 @@ function Menu(props){
         RemoveAllButtons:<button className={styles.RemoveAllbutton} onClick={() => setCount2(0)}><b>Remove Croissants from cart</b></button>,
         cartted:count2,
        };
+
+    if(count2<0)
+        setCount2(0);
     
     const eggRoll={
         image:EggRoll,
@@ -54,7 +60,10 @@ function Menu(props){
         RemoveAllButtons:<button className={styles.RemoveAllbutton} onClick={() => setCount3(0)}><b>Remove Sp. Egg Rolls from cart</b></button>,
         cartted:count3,
        };
-    
+       
+    if(count3<0)
+        setCount3(0);
+
     const farmhousePizza={
         image:FarmhousePizza,
         id:"3",
@@ -66,6 +75,9 @@ function Menu(props){
         RemoveAllButtons:<button className={styles.RemoveAllbutton} onClick={() => setCount4(0)}><b>Remove these Pizzas from cart</b></button>,
         cartted:count4,
        };
+    
+    if(count4<0)
+        setCount4(0);
     
     const extraCheesyBurger={
         image:ExtraCheesyBurger,
@@ -79,6 +91,9 @@ function Menu(props){
         cartted:count5,
        };
     
+    if(count5<0)
+        setCount1(5);
+    
     const leafyPizza={
         image:LeafyPizza,
         id:"5",
@@ -91,6 +106,9 @@ function Menu(props){
         cartted:count6,
        };
     
+    if(count6<0)
+        setCount6(0);
+    
     const vegiesBurger={
         image:VegiesBurger,
         id:"6",
@@ -102,6 +120,9 @@ function Menu(props){
         RemoveAllButtons:<button className={styles.RemoveAllbutton} onClick={() => setCount7(0)}><b>Remove these Burgers from cart</b></button>,
         cartted:count7,
        };
+
+    if(count7<0)
+        setCount7(0);
     
     const foodMenu=[hamburger,eggRoll,farmhousePizza,vegiesBurger,croissant,extraCheesyBurger,leafyPizza];
     
@@ -115,7 +136,7 @@ function Menu(props){
                     <p className={styles.price}>₹{food.price}</p>
                     <p className={styles.descr}>{food.description}</p>
                     {food.buttons}
-                    {food.RemoveButtons}                                    {/*Fix the issue where number of items becomes less than 0 */}
+                    {food.RemoveButtons}                                  
                     {food.RemoveAllButtons}
                 </div>
             </React.Fragment>
